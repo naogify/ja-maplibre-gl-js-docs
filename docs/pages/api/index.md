@@ -1,4 +1,5 @@
 ---
+# title: API Reference
 title: API リファレンス
 # description: The MapLibre GL JS API documentation to render interactive maps from vector tiles and MapLibre styles.
 description: MapLibre GL JS の API を使用して、ベクトルタイルと MapLibre スタイルを使用したインタラクティブな地図を作成するためのドキュメンテーション
@@ -79,8 +80,10 @@ In the examples we use vector tiles from [MapTiler](https://maptiler.com). Get y
 このドキュメントはいくつかのセクションに分かれています。
 
 <!-- * [**Map**](https://maplibre.org/maplibre-gl-js-docs/api/map/). The `Map` object is the map on your page. It lets you access methods and properties for interacting with the map's style and layers, respond to events, and manipulate the user's perspective with the camera. -->
-* [**Map**](https://maplibre.org/maplibre-gl-js-docs/api/map/) `Map` オブジェクトはWebサイト上で表示される地図のオブジェクトです。`Map` オブジェクトのメソッドやプロパティを使う事で、ユーザーの視点や、イベントの取得、レイヤーやスタイルの操作することができます。
-* [**Properties and options**](https://maplibre.org/maplibre-gl-js-docs/api/properties/). This section describes MapLibre GL JS's global properties and options that you might want to access while initializing your map or accessing information about its status.
+* [**Map**](https://maplibre.org/maplibre-gl-js-docs/api/map/) `Map` オブジェクトは Web サイト上で表示される地図のオブジェクトです。`Map` オブジェクトのメソッドやプロパティを使う事で、ユーザーの視点や、イベントの取得、レイヤーやスタイルの操作することができます。
+<!-- * [**Properties and options**](https://maplibre.org/maplibre-gl-js-docs/api/properties/). This section describes MapLibre GL JS's global properties and options that you might want to access while initializing your map or accessing information about its status. -->
+* [**プロパティとオプション**](https://maplibre.org/maplibre-gl-js-docs/api/properties/) MapLibre GL JS ステータスの設定や地図の初期化時の設定をする事ができるグローバルなプロパティとオプションについて説明します。
+
 * [**Markers and controls**](https://maplibre.org/maplibre-gl-js-docs/api/markers/). This section describes the user interface elements that you can add to your map. The items in this section exist outside of the map's `canvas` element.
 * [**Geography and geometry**](https://maplibre.org/maplibre-gl-js-docs/api/geography/). This section includes general utilities and types that relate to working with and manipulating geographic information or geometries.
 * [**User interaction handlers**](https://maplibre.org/maplibre-gl-js-docs/api/handlers/). The items in this section relate to the ways in which the map responds to user input.
