@@ -49,7 +49,8 @@ MapLibre GL JS は、[ベクトルタイル](https://docs.mapbox.com/help/glossa
 日本語への翻訳に貢献してくださるなら、日本語版のリポジトリで [issue](https://github.com/geolonia/ja-maplibre-gl-js-docs/issues) を開くか、[pull request](https://github.com/geolonia/ja-maplibre-gl-js-docs/pulls) を送ってください。
 
 
-## Quickstart
+<!-- ## Quickstart -->
+## クイックスタート
 
 {{
     <Example
@@ -71,11 +72,14 @@ In the examples we use vector tiles from [MapTiler](https://maptiler.com). Get y
 }}
 
 
-## Reading this documentation
+<!-- ## Reading this documentation -->
+## このドキュメントの読み方について
 
-This documentation is divided into several sections:
+<!-- This documentation is divided into several sections: -->
+このドキュメントはいくつかのセクションに分かれています。
 
-* [**Map**](https://maplibre.org/maplibre-gl-js-docs/api/map/). The `Map` object is the map on your page. It lets you access methods and properties for interacting with the map's style and layers, respond to events, and manipulate the user's perspective with the camera.
+<!-- * [**Map**](https://maplibre.org/maplibre-gl-js-docs/api/map/). The `Map` object is the map on your page. It lets you access methods and properties for interacting with the map's style and layers, respond to events, and manipulate the user's perspective with the camera. -->
+* [**Map**](https://maplibre.org/maplibre-gl-js-docs/api/map/) `Map` オブジェクトはWebサイト上で表示される地図のオブジェクトです。`Map` オブジェクトのメソッドやプロパティを使う事で、ユーザーの視点や、イベントの取得、レイヤーやスタイルの操作することができます。
 * [**Properties and options**](https://maplibre.org/maplibre-gl-js-docs/api/properties/). This section describes MapLibre GL JS's global properties and options that you might want to access while initializing your map or accessing information about its status.
 * [**Markers and controls**](https://maplibre.org/maplibre-gl-js-docs/api/markers/). This section describes the user interface elements that you can add to your map. The items in this section exist outside of the map's `canvas` element.
 * [**Geography and geometry**](https://maplibre.org/maplibre-gl-js-docs/api/geography/). This section includes general utilities and types that relate to working with and manipulating geographic information or geometries.
