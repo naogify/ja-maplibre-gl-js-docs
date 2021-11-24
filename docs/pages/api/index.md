@@ -83,8 +83,8 @@ In the examples we use vector tiles from [MapTiler](https://maptiler.com). Get y
 * [**Map**](https://maplibre.org/maplibre-gl-js-docs/api/map/) `Map` オブジェクトは Web サイト上で表示される地図のオブジェクトです。`Map` オブジェクトのメソッドやプロパティを使う事で、ユーザーの視点や、イベントの取得、レイヤーやスタイルの操作することができます。
 <!-- * [**Properties and options**](https://maplibre.org/maplibre-gl-js-docs/api/properties/). This section describes MapLibre GL JS's global properties and options that you might want to access while initializing your map or accessing information about its status. -->
 * [**プロパティとオプション**](https://maplibre.org/maplibre-gl-js-docs/api/properties/) MapLibre GL JS ステータスの設定や地図の初期化時の設定をする事ができるグローバルなプロパティとオプションについて説明します。
-
-* [**Markers and controls**](https://maplibre.org/maplibre-gl-js-docs/api/markers/). This section describes the user interface elements that you can add to your map. The items in this section exist outside of the map's `canvas` element.
+<!-- * [**Markers and controls**](https://maplibre.org/maplibre-gl-js-docs/api/markers/). This section describes the user interface elements that you can add to your map. The items in this section exist outside of the map's `canvas` element. -->
+* [**マーカーとコントロール**](https://maplibre.org/maplibre-gl-js-docs/api/markers/) 地図に追加できる UI 要素について説明します。これらの UI 要素は、地図が描画されている `canvas` 要素の外側に追加されます。
 * [**Geography and geometry**](https://maplibre.org/maplibre-gl-js-docs/api/geography/). This section includes general utilities and types that relate to working with and manipulating geographic information or geometries.
 * [**User interaction handlers**](https://maplibre.org/maplibre-gl-js-docs/api/handlers/). The items in this section relate to the ways in which the map responds to user input.
 * [**Sources**](https://maplibre.org/maplibre-gl-js-docs/api/sources/). This section describes the source types MapLibre GL JS can handle besides the ones described in the [MapLibre Style Specification](https://maplibre.org/maplibre-gl-js-docs/style-spec/).
