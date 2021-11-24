@@ -81,7 +81,7 @@
     "build": "batfish build",
     "serve-static": "batfish serve-static",
     "pretest": "npm run lint",
-    "test": "tape test/*.test.js | tap-min && npm run lint-md && npm run test-content && jest",
+    "test": "tape test/*.test.js | tap-min && npm run lint-md && jest",
     "test-content": "copyeditor docs/pages/",
     "start": "NODE_OPTIONS=\"--max_old_space_size=4096\" DEPLOY_ENV=local batfish start",
     "create-image": "node docs/bin/create-image",
